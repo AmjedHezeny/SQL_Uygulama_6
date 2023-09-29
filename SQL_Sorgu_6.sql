@@ -74,3 +74,14 @@ FROM Employees;
 
 -- Çalışan Türü Belirleme Örneği: Çalışanların işe giriş yıllarına göre türlerini belirler --
 --***************************--
+
+---------------------------------------
+CREATE FUNCTION Emcet (@Yas FLOAT) 
+RETURNS FLOAT
+AS
+BEGIN
+    DECLARE @Yıl FLOAT;
+    SET @Yıl = @Yas * 26;
+    RETURN @Yıl;
+END;
+

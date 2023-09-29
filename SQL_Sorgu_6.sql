@@ -1,3 +1,16 @@
+--***** Veritabanı Oluşturma *****--
+
+create database Sinif_101
+
+-- Bu komut ile "Sinif_101" adında bir veritabanı oluşturuluyor --
+--*******************************--
+
+--***** "Sinif_101" Veritabanını Kullanma *****--
+
+Use Sinif_101
+
+-- Bu komut ile "Sinif_101" veritabanı kullanılmaya başlanıyor --
+--*******************************--
 --***** Update *****--
 
 UPDATE Ogrenciler
